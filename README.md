@@ -1,4 +1,4 @@
-# Sprint_13_Efficiency_Analysis
+# Cancel Predictions
 
 Una empresa ha registrado a sus usuarios con el objetivo de analizar sus comportamientos, poder predecir las próximas cancelaciones y generar una estrategia de retención para evitar la pérdida de más clientes. Con los análisis se busca predecir la probabilidad de pérdida de cada cliente para el próximo mes.
 
