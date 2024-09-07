@@ -1,8 +1,9 @@
 # Sprint_13_Efficiency_Analysis
-Con el fin de combatir la cancelación de sus usuarios en una empresa de operadores telefónicos, se analizan los usuarios para elaborar una estrategia de retención de clientes. Con los análisis se busca predecir la probabilidad de pérdida de cada cliente para el próximo mes.
 
-En el proyecto se realizaron las siguientes actividades: Elaboración de retratos de usuarios típicos seleccionando los grupos más destacados y describir sus características principales. Analisis de los factores que más impactan la pérdida. Identificación de grupos objetivo y sugerir medidas para reducir la rotación. Finalmente, se hicieron recomendaciones para mejorar la atención al cliente.
+Una empresa ha registrado a sus usuarios con el objetivo de analizar sus comportamientos, poder predecir las próximas cancelaciones y generar una estrategia de retención para evitar la pérdida de más clientes. Con los análisis se busca predecir la probabilidad de pérdida de cada cliente para el próximo mes.
+
+En el proyecto se realizaron las siguientes actividades: Utilizando un método de clasificación de grupos, se encontró que los usuarios que tienden a cancelar con mayor prontitud presentaban valores menores en: periodos de tiempo de inscripción, edad, cargos adicionales, frecuencia de visitas y sesiones grupales. Habiendo encontrado esas características para combatir la frecuencia de cancelación, se propusieron estrategias como: Descuentos en periodos de inscripción extendidos, beneficios por asistencias continuas o promociones en sesiones grupales.
+
+El proyecto implicó la realización de modelos de aprendizaje automático para la predicción de cancelación de los usuarios, para ello se usaron las librerías SciKit Learn y SciPy de Python, más específicamente, los métodos de Regresión Lineal y Bosque Aleatorio, así como K-Means para el agrupamiento de los datos.
 
 El proyecto se realizó en Jupyter Notebook con lenguaje Python. Los datos que se usaron, se pueden encontrar en el folder 'datasets' de este repositorio.
-
-También se realizó un dashboard básico en Tableau en el que se muestran histogramas con la duración total de las llamadas y un gráfico del porcentaje de llamadas internas y externas. Para ver este archivo se puede usar el siguiente [enlace](https://public.tableau.com/views/DashboardTelecomunicaciones_17184183716510/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
